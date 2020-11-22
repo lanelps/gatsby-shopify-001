@@ -1,0 +1,46 @@
+:root {
+  --padding: 4rem;
+  --grid: repeat(12, 1fr);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation {
+  padding: 2rem var(--padding);
+  background-color: grey;
+  height: 6rem;
+}
+
+.navigation .navigation__list .navigation__list-item a {
+  color: white;
+}
+
+.content {
+  min-height: calc(100vh - 16rem);
+  padding: var(--padding);
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 10rem;
+  background-color: black;
+  color: white;
+  padding: var(--padding);
+}
